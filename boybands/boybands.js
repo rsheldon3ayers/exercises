@@ -15,18 +15,21 @@ var bandElement = document.getElementById("boy-bands");
 
 // Get a reference to the appropriate DOM element for vegetables
 var veggieElement = document.getElementById("vegetables");
-var output = " ";
+var bandOutput = " ";
+var vegOutput
 
 // Start looping
 for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
 
   // Add the band names into the correct <div>
-  output = output + "<div>" + currentBand;
-  output = output + "</div>";
+  bandOutput = bandOutput + "<div>" + currentBand;
+  bandOutput = bandOutput + "</div>";
 
 
   // Add the veggie names into the correct <div>
-  currentVeggie = ???;
+  vegOutput = vegOutput + "<div>" +currentVeggie;
+  vegOutput = vegOutput + "</div>";
 
 }
-bandElement.innerHTML = output;
+bandElement.innerHTML = bandOutput;
+veggieElement.innerHTML = vegOutput

@@ -37,3 +37,8 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
 bandElement.innerHTML = bandOutput;
 
 veggieElement.innerHTML = vegOutput
+
+switch (criteria) {
+	case 1:
+	  console.log("one")
+}

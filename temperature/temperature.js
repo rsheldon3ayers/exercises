@@ -130,7 +130,7 @@ var tempNum = document.getElementById("text-box");
 
 //Function to determine what happens when the enter key is pressed in input box.
 
-tempNum.addEventListener("keyup", function (event) {
+ tempNum.addEventListener("keyup", function (event) {
   tempNum = event.target.value;
   if(event.which === 13) {
     determineConverter();
